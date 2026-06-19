@@ -1,0 +1,12 @@
+{
+  "name": "jesserobbins-skills",
+  "owner": {
+    "name": "Jesse Robbins",
+    "email": "jesse.robbins@openaid.org"
+  },
+  "metadata": {
+    "description": "Jesse Robbins' public Claude Code skills marketplace.",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}
