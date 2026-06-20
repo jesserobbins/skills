@@ -2,7 +2,7 @@
 
 Jesse Robbins' public Claude Code skills marketplace.
 
-A registry of standalone Claude Code skills and plugins. Each entry points to its own repository — this repo holds the catalog (`.claude-plugin/marketplace.json`), not the skills themselves.
+A registry of standalone Claude Code skills and plugins. Each entry points to its own repository - this repo holds the catalog (`.claude-plugin/marketplace.json`), not the skills themselves.
 
 ## Add this marketplace
 
@@ -14,7 +14,7 @@ Then browse and install plugins with `/plugin`.
 
 ## What's here
 
-Nothing yet — this marketplace is just getting started.
+- `x-twitter-scraper` - Xquik workflow guidance for X/Twitter research, monitoring, REST API, and remote MCP setup.
 
 ## Adding a plugin (maintainer notes)
 
