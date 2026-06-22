@@ -14,7 +14,9 @@ Then browse and install plugins with `/plugin`.
 
 ## What's here
 
-Nothing yet — this marketplace is just getting started.
+| Plugin | Description |
+| --- | --- |
+| `hermes-tweet` | Native Hermes Agent X/Twitter plugin for Xquik automation with read-first workflows and approval-gated actions. |
 
 ## Adding a plugin (maintainer notes)
 
