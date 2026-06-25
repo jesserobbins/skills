@@ -14,7 +14,7 @@ Then browse and install plugins with `/plugin`.
 
 ## What's here
 
-Nothing yet — this marketplace is just getting started.
+- **[refine-and-polish](https://github.com/jesserobbins/refine-and-polish)** — keeps a long [roborev](https://roborev.io) refine loop honest: a private ledger that tracks every finding across iterations and reviewers, so you can tell a regression from a repeat from a loop, defend a deliberate design call, and decide when to stop. *(`0.0.1-alpha`)*
 
 ## Adding a plugin (maintainer notes)
 

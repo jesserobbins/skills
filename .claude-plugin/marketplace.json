@@ -6,7 +6,13 @@
   },
   "metadata": {
     "description": "Jesse Robbins' public Claude Code skills marketplace.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "refine-and-polish",
+      "source": { "source": "url", "url": "https://github.com/jesserobbins/refine-and-polish.git" },
+      "description": "Track a multi-iteration roborev refine loop in a private ledger — detect regressions, repeats, and loops; defend deliberate pushback; handle a reviewer going offline; decide when to stop."
+    }
+  ]
 }
