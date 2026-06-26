@@ -6,13 +6,18 @@
   },
   "metadata": {
     "description": "Jesse Robbins' public Claude Code skills marketplace.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "refine-and-polish",
       "source": { "source": "url", "url": "https://github.com/jesserobbins/refine-and-polish.git" },
       "description": "Track a multi-iteration roborev refine loop in a private ledger — detect regressions, repeats, and loops; defend deliberate pushback; handle a reviewer going offline; decide when to stop."
+    },
+    {
+      "name": "greenroom",
+      "source": { "source": "url", "url": "https://github.com/jesserobbins/greenroom.git" },
+      "description": "Keep your private design docs, drafts, and review notes in a private repo right beside the public code — so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room."
     }
   ]
 }
