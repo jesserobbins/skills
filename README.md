@@ -14,7 +14,7 @@ Then browse and install plugins with `/plugin`.
 
 ## What's here
 
-- **[greenroom](https://github.com/jesserobbins/greenroom)** — keeps your private superpowers docs, designs, plans, drafts, and review notes in a private repo right beside the public code, so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room. *(`0.2.0-alpha`)*
+- **[greenroom](https://github.com/jesserobbins/greenroom)** — keeps your private superpowers docs, designs, plans, drafts, and review notes in a private repo right beside the public code, so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room. *(`0.2.1-alpha`)*
 - **[refine-and-polish](https://github.com/jesserobbins/refine-and-polish)** — keeps a long [roborev](https://roborev.io) refine loop honest: a private ledger that tracks every finding across iterations and reviewers, so you can tell a regression from a repeat from a loop, defend a deliberate design call, and decide when to stop. *(`0.0.1-alpha`)*
 
 ## Adding a plugin (maintainer notes)
