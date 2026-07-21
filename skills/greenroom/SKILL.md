@@ -170,4 +170,3 @@ Read only what the task needs:
 - `references/collect.md` — recovering private-shaped docs from public history
 - `references/operations.md` — what the script deliberately does not do, edge
   cases, safety boundaries, and the post-run checklist
-corrupted by a test
