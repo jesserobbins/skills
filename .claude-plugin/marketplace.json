@@ -2,11 +2,11 @@
   "name": "jesserobbins-skills",
   "owner": {
     "name": "Jesse Robbins",
-    "email": "jesse.robbins@openaid.org"
+    "email": "code@jesserobbins.com"
   },
   "metadata": {
     "description": "Jesse Robbins' public Claude Code skills marketplace.",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "greenroom",
       "source": { "source": "url", "url": "https://github.com/jesserobbins/greenroom.git" },
-      "description": "Keep your private design docs, drafts, and review notes in a private repo right beside the public code — so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room."
+      "description": "Keep your private superpowers docs, designs, plans, drafts, and review notes in a private repo right beside the public code — so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room."
     }
   ]
 }
