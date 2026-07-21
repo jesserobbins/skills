@@ -1,0 +1,48 @@
+name: sync-mirrors
+
+# Mirrored skills live in their own repos; this catalog carries a copy so skills.sh
+# has something to index here. The copy is refreshed from the source repo's newest
+# release, so it cannot drift the way a hand-maintained copy would.
+#
+# All logic is in scripts/sync-mirrors.sh so it can be run and tested locally
+# exactly as CI runs it -- `scripts/sync-mirrors.sh --check` reports staleness
+# without changing anything.
+on:
+  schedule:
+    - cron: "17 6 * * *"      # daily; a release lands here within a day
+  workflow_dispatch:           # or immediately, by hand, after cutting one
+
+permissions:
+  contents: write              # to commit the refreshed mirror
+
+concurrency:
+  group: sync-mirrors
+  cancel-in-progress: false    # never cancel a run that may be mid-commit
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync mirrored skills
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: scripts/sync-mirrors.sh
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no changes — mirrors already current"
+            exit 0
+          fi
+          git config user.name "Jesse Robbins"
+          git config user.email "code@jesserobbins.com"
+          git add -A
+          git commit -m "Sync mirrored skills from their source releases
+
+          Refreshed by .github/workflows/sync-mirrors.yml. The payload is copied
+          verbatim from the source repo's newest release; see MIRRORS.md for what
+          is mirrored from where."
+          git push

@@ -32,6 +32,8 @@ Keeps your private superpowers docs, designs, plans, drafts, and review notes in
 
 Also on skills.sh: [`jesserobbins/greenroom`](https://www.skills.sh/jesserobbins/greenroom)
 
+Mirrored into this repo under `skills/greenroom`, refreshed from each release — see [MIRRORS.md](./MIRRORS.md). The source repo is canonical; report issues there.
+
 ### [refine-and-polish](https://github.com/jesserobbins/refine-and-polish) — `0.0.1-alpha`
 
 Keeps a long [roborev](https://roborev.io) refine loop honest: a private ledger tracking every finding across iterations and reviewers, so you can tell a regression from a repeat from a loop, defend a deliberate design call, and decide when to stop.
