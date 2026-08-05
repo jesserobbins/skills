@@ -16,7 +16,10 @@ CHECK_ONLY=""
 [ "${1:-}" = "--check" ] && CHECK_ONLY=yes
 
 # <source-repo>:<path-in-source>:<path-here>
-MIRRORS="jesserobbins/greenroom:skills/greenroom:skills/greenroom"
+MIRRORS="
+jesserobbins/greenroom:skills/greenroom:skills/greenroom
+jesserobbins/refine-and-polish:skills/refine-and-polish:skills/refine-and-polish
+"
 
 api() {
   # GITHUB_TOKEN lifts the rate limit in CI; the public API works without it locally.
