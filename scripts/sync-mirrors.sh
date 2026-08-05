@@ -18,7 +18,7 @@ CHECK_ONLY=""
 # <source-repo>:<path-in-source>:<path-here>
 MIRRORS="
 jesserobbins/greenroom:skills/greenroom:skills/greenroom
-jesserobbins/refine-and-polish:skills/refine-and-polish:skills/refine-and-polish
+jesserobbins/refine-and-polish:skills/roborev-refine-and-polish:skills/roborev-refine-and-polish
 "
 
 api() {

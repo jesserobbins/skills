@@ -20,7 +20,7 @@ Then browse and install with `/plugin`.
 
 ```sh
 npx skills add jesserobbins/greenroom
-npx skills add jesserobbins/refine-and-polish
+npx skills add jesserobbins/refine-and-polish --skill roborev-refine-and-polish
 ```
 
 The two channels are independent: the marketplace is Claude Code plugins, `npx skills` is any agent. Neither needs the other.
@@ -35,13 +35,13 @@ Also on skills.sh: [`jesserobbins/greenroom`](https://www.skills.sh/jesserobbins
 
 Mirrored into this repo under `skills/greenroom`, refreshed from each release — see [MIRRORS.md](./MIRRORS.md). The source repo is canonical; report issues there.
 
-### [refine-and-polish](https://github.com/jesserobbins/refine-and-polish) — `0.0.1-alpha`
+### [roborev-refine-and-polish](https://github.com/jesserobbins/refine-and-polish) — `0.0.2-alpha`
 
 Keeps a long [roborev](https://roborev.io) refine loop honest: a private ledger tracking every finding across iterations and reviewers, so you can tell a regression from a repeat from a loop, defend a deliberate design call, and decide when to stop.
 
-Also on skills.sh: [`jesserobbins/refine-and-polish`](https://www.skills.sh/jesserobbins/refine-and-polish)
+Also on skills.sh: [`jesserobbins/roborev-refine-and-polish`](https://www.skills.sh/jesserobbins/roborev-refine-and-polish)
 
-Mirrored into this repo under `skills/refine-and-polish`, refreshed from each release — see [MIRRORS.md](./MIRRORS.md). The source repo is canonical; report issues there.
+Mirrored into this repo under `skills/roborev-refine-and-polish`, refreshed from each release — see [MIRRORS.md](./MIRRORS.md). The source repo is canonical; report issues there.
 
 ## Adding a plugin (maintainer notes)
 

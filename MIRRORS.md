@@ -7,7 +7,7 @@ keeps a copy under `skills/` so skills.sh has something to index here.
 | Mirrored to | Source | Refreshed from |
 |---|---|---|
 | `skills/greenroom` | [jesserobbins/greenroom](https://github.com/jesserobbins/greenroom) | its newest release |
-| `skills/refine-and-polish` | [jesserobbins/refine-and-polish](https://github.com/jesserobbins/refine-and-polish) | its newest release |
+| `skills/roborev-refine-and-polish` | [jesserobbins/refine-and-polish](https://github.com/jesserobbins/refine-and-polish) | its newest release |
 
 ## How it works
 
@@ -38,6 +38,6 @@ otherwise hand-maintained and drifts.
   ```sh
   npx skills add jesserobbins/greenroom                  # canonical
   npx skills add jesserobbins/skills --skill greenroom   # this mirror
-  npx skills add jesserobbins/refine-and-polish          # canonical
-  npx skills add jesserobbins/skills --skill refine-and-polish # this mirror
+  npx skills add jesserobbins/refine-and-polish --skill roborev-refine-and-polish # canonical
+  npx skills add jesserobbins/skills --skill roborev-refine-and-polish # this mirror
   ```
