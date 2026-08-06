@@ -27,7 +27,7 @@ The two channels are independent: the marketplace is Claude Code plugins, `npx s
 
 ## What's here
 
-### [greenroom](https://github.com/jesserobbins/greenroom) — `0.2.1-alpha`
+### [greenroom](https://github.com/jesserobbins/greenroom) — `0.2.2-alpha`
 
 Keeps your private superpowers docs, designs, plans, drafts, and review notes in a private repo right beside the public code, so you do high-quality work in the open without leaking your raw thinking. The public repo is the stage; the private repo is the green room.
 
